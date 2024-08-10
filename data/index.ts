@@ -207,13 +207,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
+      link:"https://github.com/Saksham-89",
     },
     {
       id: 3,
       img: "/link.svg",
+      link:"https://www.linkedin.com/in/saksham-singh-birla-82594b276/",
     },
   ];

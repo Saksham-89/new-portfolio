@@ -1,6 +1,7 @@
 
 import Approach from "@/components/Approach";
 import Experiences from "@/components/Experiences";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/Navbar";
@@ -18,7 +19,8 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Experiences />
-        <Approach/>
+        {/* <Approach/> */}
+        <Footer/>
       </div>
     </main>
   );
