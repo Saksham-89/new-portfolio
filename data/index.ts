@@ -8,7 +8,7 @@ export const navItems = [
     { name: "Experiences", link: "#experiences" },
     { name: "Contact", link: "#contact" },
   ];
-  
+
   export const gridItems = [
     {
       id: 1,
@@ -50,10 +50,10 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
+
     {
       id: 5,
-      title: "Currently learning financial software development",
+      title: "Currently learning Intelligent Embedded Systems",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,58 +72,42 @@ export const navItems = [
       spareImg: "",
     },
   ];
-  
+
   export const projects = [
     {
       id: 1,
-      title: "Unreal Engine 5 Game Development",
-      des: "Exploring the world of game development with Unreal Engine 5, creating a 3D game from scratch.",
-      img: "/unrealengine.jpg",
-      iconLists: ["/ue.svg", "/c.svg", "/c++.svg"],
-      link: "https://www.youtube.com/watch?v=F4fvmBVFKGw",
+      title: "Smart Walking Stick For Blind People",
+      des: "A smart walking stick for blind people that uses ultrasonic sensors to detect obstacles and provide auditory feedback to the user. Includes a web interface for tracking user location and history. The system uses a combination of hardware and software to provide a comprehensive solution for blind people.",
+      img: "/stick.png",
+      iconLists: ["/python.svg", "/arduino.svg", "/c++.svg", "/re.svg"],
+      link: "",
     },
     {
       id: 2,
-      title: "Corvette C8 3D Web Animation",
-      des: "A fully interactive web animation created using the latest tech stack for one of my favorite cars, the Corvette C8.",
-      img: "/c8.png",
-      iconLists: ["/three.svg", "/tail.svg", "/re.svg", "/c.svg"],
-      link: "https://carshow1.netlify.app/",
+      title: "Dots and Boxes Multiplayer Game",
+      des: "A multiplayer game of dots and boxes that allows two players to play against each other. The game includes an artificial intelligence that can play against the user. The game is implemented in Java and uses a graphical user interface. Uses Object Oriented Programming concepts.",
+      img: "/dots.png",
+      iconLists: ["/Java.svg",],
+      link: "https://github.com/Saksham-89/ProgrammingProject",
     },
     {
       id: 3,
-      title: "ThreeJS Parallax Website",
-      des: "A demo Parallax Website created using Three.js, React.js, and Tailwind CSS.",
-      img: "/threejs.png",
-      iconLists: ["/three.svg", "/tail.svg", "/ts.svg", "/re.svg"],
-      link: "https://threejstutorial.netlify.app/",
+      title: "Graph Isomorphism Algorithm",
+      des: "A graph isomorphism algorithm that checks if two graphs are isomorphic. The algorithm uses a combination of depth first search and backtracking to find the isomorphism. The algorithm is implemented in Python. Work on graphs with 100000+ nodes and 100000+ edges in less than 10 seconds. Uses Discrete Mathematics and Abstract Algebra concepts.",
+      img: "/graphiso.png",
+      iconLists: ["/python.svg"],
+      link: "",
     },
     {
-      id: 4,
-      title: "Anti Distraction Extension",
-      des: "A chrome extensions that block websites and apps to help you focus on your work.",
-      img: "/antidistraction.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://github.com/Saksham-89/Website-Blocker",
+      id:4,
+      title: "Banking Application",
+      des: "A banking application that allows users to create an account, deposit and withdraw money, and check their balance. The application uses a web interface and a secure database to store user information. The application is implemented in JavaScript. Uses up to date security protocols to ensure secure transactions. The application is designed to be user-friendly and easy to use.",
+      img:"/banking.png",
+      iconLists:['/js.svg', '/html.svg', '/css.svg', '/re.svg', '/ts.svg'],
+      link:"https://github.com/Saksham-89/banking-app",
     },
-    {
-      id:5,
-      title: "Visual Integration Calculator",
-      des: "A calculator that helps you visualize the integration of functions.",
-      img:"/integration.png",
-      iconLists:['/python.svg'],
-      link:"https://github.com/Saksham-89/Integration-Calculator/tree/main",
-    },
-    {
-      id: 6,
-      title: "Product Landing Page",
-      des: "A product landing page for a Trombone company.",
-      img: "/productlanding.png",
-      iconLists:["/html.svg", "/css.svg", "/js.svg"],
-      link:"https://saksham-89.github.io/Product-Landing-Page/"
-    }
   ];
-  
+
   export const testimonials = [
     {
       quote:
@@ -150,7 +134,7 @@ export const navItems = [
       title: "2023",
     },
   ];
-  
+
   export const companies = [
     {
       id: 1,
@@ -171,38 +155,38 @@ export const navItems = [
       nameImg: "/dockerName.svg",
     },
   ];
-  
+
   export const workExperience = [
     {
       id: 1,
       title: "Booking System - Shotmaniacs",
-      desc: "Collaborating with a local media agency to create a booking system for their clients. The system allows clients to book appointments and services online, and the agency to manage bookings and staff schedules.",
+      desc: "Collaborating with a local media agency to create a booking system for their clients. The system allows clients to book appointments and services online, and the agency to manage bookings and staff schedules. The system is implemented in JavaScript and uses a web interface. The system uses an API built from scratch to ensure secure transactions.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/cam.svg",
     },
     {
       id: 2,
       title: "Chat Application",
-      desc: "Creating a chat application implementing complex networking concepts such as Multi-hop routing, data encryption, and secure communication. The app allows users to chat with each other in real-time, and share files securely.",
+      desc: "Creating a chat application implementing complex networking concepts such as Multi-hop routing, data encryption, and secure communication. The app allows users to chat with each other in real-time, and share files securely. The app handles packets collisions through CSMA protocol.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/chat.svg",
     },
     {
       id: 3,
-      title: "Debit Card System",
-      desc: "A debit card system which uses RFID as debit cards and can be scanned using Arduino. The system ensures secure transactions and allows users to check their balance and transaction history through a web interface connected to a secure database.",
+      title: "VR Meditation App",
+      desc: "A VR app that helps users immerse themselves in a virtual environment and meditate. The app uses a combination of hardware and software to provide a comprehensive solution for meditation. Users can also upload customs environments that they consider to be their 'happy place' and can be transported there at any time.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/VR.svg",
     },
     {
       id: 4,
-      title: "Dots and Boxes Video Game",
-      desc: "Creating a dots and boxes game using Java. The game allows two players to play against each other, and the player with the most boxes wins. It also included an artificial intelligence which could play against the user",
+      title: "Debit Card System",
+      desc: "A debit card system which uses RFID as debit cards and can be scanned using Arduino. The system ensures secure transactions and allows users to check their balance and transaction history through a web interface connected to a secure database. The system uses a combination of hardware and software to provide a comprehensive solution for debit card transactions.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/debit.svg",
     },
   ];
-  
+
   export const socialMedia = [
     {
       id: 1,
